@@ -1,0 +1,61 @@
+.intro {
+    //background-color: #ff514b;
+    color: white;
+    display: flex;
+  
+    
+    background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+    background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+  
+   
+
+    .wrapper {
+        margin: auto;
+        font-size: 30px;
+        font-weight: 700;
+
+        .btn {
+            transition: all .5s ease-in-out;
+            background-color: transparent;
+            color: white;
+            width: 100px;
+            height: 40px;
+            border-color: white;
+            cursor: pointer;
+            text-decoration: none;
+            border: 1px solid;
+            overflow: hidden;
+            position: relative;
+            outline: none;
+            border-radius: 30px;
+
+            &:hover {
+                background-color: #fff;
+                color: black;
+                outline: none;
+                border-color: white;
+                width: 150px;
+                font-weight: 500;
+                font-size: 15px;
+              }
+        }
+
+        
+
+        h3 {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        h4 {
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+      }
+  
+}
