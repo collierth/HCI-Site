@@ -1,5 +1,5 @@
 import "./projects.scss"
-import {VideogameAsset, ArrowBackIos, ArrowForwardIos, Web} from "@material-ui/icons"
+import {VideogameAsset, ArrowBackIos, ArrowForwardIos, AddToPhotos} from "@material-ui/icons"
 import { useState } from "react";
 
 export default function Projects() {
@@ -17,13 +17,13 @@ export default function Projects() {
         },
         {
             id: "2",
-            icon: <Web style={{fontSize: 30}}/>,
-            title: "React Web Portfolio",
+            icon: <AddToPhotos style={{fontSize: 30}}/>,
+            title: "Coming Soon",
             sub: "Project",
-            desc: "My personal portfolio made with React JS and CSS",
-            img: "assets/design.png",
+            desc: "TBA",
+            img: "",
             a: "#intro",
-            b: "Visit!",
+            b: "Unavailable",
         },
     ];
 
