@@ -1,5 +1,4 @@
 import "./intro.scss"
-import {KeyboardArrowDownSharp} from "@material-ui/icons"
 
 export default function Intro() {
     return (

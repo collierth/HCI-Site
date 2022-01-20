@@ -1,5 +1,5 @@
 import "./projects.scss"
-import {VideogameAsset, ArrowBackIos, ArrowForwardIos, AddToPhotos, Assignment} from "@material-ui/icons"
+import {VideogameAsset, ArrowBackIos, ArrowForwardIos, Assignment} from "@material-ui/icons"
 import { useState } from "react";
 
 export default function Projects() {
@@ -11,7 +11,7 @@ export default function Projects() {
             title: "Side-scrolling Game in Javascript",
             sub: "Project",
             desc: "This is a 2D platformer game made entirely with vanilla javascript. I was responsible for level implementation and programming game objects such as interactable buttons and doors, as well as, moving platforms for the player to jump on.",
-            img: "assets/game2.png",
+            img: "/HCI-Site/assets/game2.png",
             a: "https://tntpc.csb.app/",
             b: "Go!",
         },

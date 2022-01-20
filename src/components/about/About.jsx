@@ -1,5 +1,5 @@
 import "./about.scss"
-import {KeyboardArrowDownSharp, School, Grading} from "@material-ui/icons"
+import {School} from "@material-ui/icons"
 
 
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
         <div className="about" id="about">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/image.png" alt=""/>
+                    <img src="/HCI-Site/assets/image.png" alt=""/>
                 </div>
             </div>
             <div className="right">
