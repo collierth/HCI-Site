@@ -17,7 +17,7 @@
         .imgContainer {
             width: 600px;
             height: 600px;
-            background-color: grey;
+            //background-color: grey;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -25,22 +25,17 @@
             float: left;
             
             /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
-
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-
-    /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-
-    /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
-
-    /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-
-    /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+            background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
+            /* safari 5.1+,chrome 10+ */
+            background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+            /* opera 11.10+ */
+            background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+            /* ie 6-9 */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
+            /* ie 10+ */
+            background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+            /* global 94%+ browsers support */
+            background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
 
             @include mobile {
                 align-items: flex-start;
@@ -50,7 +45,7 @@
                 height: 70%;
 
                 @include mobile {
-                    height: 60%;
+                    height: 70%;
                 }
             }
         }
@@ -67,11 +62,11 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            max-width: fit-content;
 
             @include mobile {
                 padding-left: 5px;
-                //padding-right: 10px;
-               // align-items: center;
+                max-width: none;
             }
 
             h1 {
@@ -100,6 +95,7 @@
             p {
                 font-weight: 300;
                 font-size: 20px;
+                max-width: fit-content;
             }
         }
         

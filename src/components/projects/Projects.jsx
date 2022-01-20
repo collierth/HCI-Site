@@ -1,5 +1,5 @@
 import "./projects.scss"
-import {VideogameAsset, ArrowBackIos, ArrowForwardIos, AddToPhotos} from "@material-ui/icons"
+import {VideogameAsset, ArrowBackIos, ArrowForwardIos, AddToPhotos, Assignment} from "@material-ui/icons"
 import { useState } from "react";
 
 export default function Projects() {
@@ -17,10 +17,10 @@ export default function Projects() {
         },
         {
             id: "2",
-            icon: <AddToPhotos style={{fontSize: 30}}/>,
+            icon: <Assignment style={{fontSize: 30}}/>,
             title: "Coming Soon",
-            sub: "Project",
-            desc: "TBA",
+            sub: "Assignment",
+            desc: "Check back later ;)",
             img: "",
             a: "#intro",
             b: "Unavailable",

@@ -14,19 +14,24 @@
         flex: 0.5;
         align-items: center;
         justify-content: center;
+        //background-color: red;
+        //padding-top: 100px;
+        //padding-bottom: 50px;
 
         @include mobile {
             display: none;
         }
 
-        button {
+        span {
             border: none;
-            cursor: default;
+            cursor: pointer;
             width: 125px;
             height: 125px;
-            border-radius: 10px;
+            border-radius: 30px;
             margin-left: 300px;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
+            transition: all 1s ease-in-out;
+            //padding-bottom: 10px;
 
             display: flex;
             justify-content: center;
@@ -48,6 +53,7 @@
             .icon {
                 color: white; 
             }
+
             &:focus {
                 outline: none;
             }
@@ -62,9 +68,10 @@
 
         @include mobile {
             flex: 1;
-            padding: 5px;
+            padding: 5px 5px;
             //width: 100%;
             margin-bottom: 350px;
+            max-width: fit-content;
         }
 
         h1 {
@@ -77,6 +84,7 @@
 
             @include mobile {
                 margin-top: 20px;
+                max-width: 100%;
             }
             display: flex;
             font-size: 20px;

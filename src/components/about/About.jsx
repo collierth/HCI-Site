@@ -17,7 +17,7 @@ export default function About() {
                     <h2>at Georgia State University<School/></h2>
                     <br/>
                     <p>I am interested in creating rich and responsive UI/UX applications 
-                        <br></br>with a focus in front-end web development.</p>
+                with a focus in front-end web development and mobile app development.</p>
                 </div>
             </div>
         </div>

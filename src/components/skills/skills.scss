@@ -5,14 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .icon {
-        color: rgb(80, 79, 79);
-        overflow: hidden;
-        &:hover {
-            color: black;
-        } 
-    }
+    
 
     h1 {
         font-size: 50px;
@@ -24,6 +17,7 @@
             margin-top: 10px;
             height: 30px;
         }
+        //background-color: red;
 
     }
 
@@ -35,6 +29,7 @@
         @include mobile {
             display: none;
         }
+        //background-color: blue;
      }
 
     .container {
@@ -45,6 +40,8 @@
         flex-wrap: wrap;
         overflow: hidden;
         min-height: 100px;
+        padding: 50px 50px;
+        //background-color: green;
 
         @include mobile {
             width: 100%;
@@ -64,6 +61,7 @@
             background-color: lightgray;
             overflow: hidden;
             transition: all 0.7s ease-in-out;
+            //background-color: yellow;
 
             @include mobile {
                 width: 90px;
@@ -76,7 +74,7 @@
                 color: rgb(80, 79, 79);
 
                 @include mobile {
-                    font-size: 15px;
+                    font-size: 12px;
                 }
             }
 

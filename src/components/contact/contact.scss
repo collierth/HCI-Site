@@ -12,73 +12,44 @@
         flex: 0.5;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: center;
 
         h2 {
-            font-size: 30px;
+            font-size: 50px;
+            margin-left: 60px;
+            margin-bottom: 20px;
+            font-weight: 700;
+
+            @include mobile {
+                margin-left: 20px;
+            }
         }
 
-        form {
-            width: 70%;
-            height: 70%;
+        .itemContainer {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            margin-left: 60px;
 
-            input {
-                width: 300px;
-                height: 30px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 20px;
-                }
+            @include mobile {
+                margin-left: 20px;
             }
-
-            textarea {
-                width: 300px;
-                height: 200px;
-                font-size: 14px;
-
-                @include mobile {
-                    width: 200px;
-                    height: 100px;
-                }
-            }
-
-            button {
-                width: 150px;
-                height: 30px;
-                color: white;
-
-                /* ff 3.6+ */
-                background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
-                /* safari 5.1+,chrome 10+ */
-                background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                /* opera 11.10+ */
-                background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                /* ie 6-9 */
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
-                /* ie 10+ */
-                background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                /* global 94%+ browsers support */
-                background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
             
-                border: none;
-                border-radius: 10px;
-                font-weight: 500;
-                cursor: pointer;
-                &:focus {
-                    outline: none;
-                }
+
+            .icon {
+                font-size: 18px;
+                margin-right: 5px;
+                color: black;
+                
             }
 
             span {
-                color: green;
-                font-weight: 500;
+                font-size: 30px;
+                font-weight: 400;
+                color: black;
+                @include mobile {
+                font-size: 20px;
+                }
             }
         }
     }

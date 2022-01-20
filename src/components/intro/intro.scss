@@ -1,15 +1,13 @@
 .intro {
-    //background-color: #ff514b;
     color: white;
     display: flex;
   
-    
-    background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
-    background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-    background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
-    background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-    background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+    background:-moz-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%); 
+    background:-webkit-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
+    background:-o-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9500FF', endColorstr='#0076DD', GradientType=1 );
+    background:-ms-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
+    background:linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
   
    
 
@@ -40,7 +38,7 @@
                 border-color: white;
                 width: 150px;
                 font-weight: 500;
-                font-size: 15px;
+                letter-spacing: 1px;
               }
         }
 

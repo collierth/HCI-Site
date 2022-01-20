@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import {Phone, Mail} from "@material-ui/icons";
+import {EmojiEmotions} from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -8,12 +8,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="left">
                     <a href="#intro"><img src="assets/chlogo-black.png" alt=""/></a>
                     <div className="itemContainer">
-                        <Phone className="icon" />
-                        <span>770 595 6304</span>
-                    </div>
-                    <div className="itemContainer">
-                        <Mail className="icon" />
-                        <span>chawkins21@student.gsu.edu</span>
+                        <EmojiEmotions className="icon" style={{fontSize: 25}}/>
+                        <span>Collier Hawkins</span>
                     </div>
                 </div>
                 <div className="right">

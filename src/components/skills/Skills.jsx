@@ -42,8 +42,6 @@ export default function Skills() {
                     <h3>Krita</h3>
                 </div>
             </div>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <a href="#hobbies" className="icon"><KeyboardArrowDownSharp style={{ fontSize: 50 }}/></a>
         </div>
     )
 }
