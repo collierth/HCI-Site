@@ -21,6 +21,7 @@
         &.left {
             left: 100px;
             opacity: 0.5;
+
             &:hover {
 
                 @keyframes bounce {
@@ -70,12 +71,7 @@
         
     }
 
-    background:-moz-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%); 
-    background:-webkit-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    background:-o-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9500FF', endColorstr='#0076DD', GradientType=1 );
-    background:-ms-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    background:linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
+    background-color: #7dabff;
 
     .slider {
         height: 350px;
@@ -177,33 +173,17 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            width: 150px;
-                            height: 50px;
+                            width: 120px;
+                            height: 40px;
                             margin-top: 10px;
-                            margin-left: 80px;
+                            
+                            background-color: #7dabff;
 
                             @include mobile {
                                 width: 120px;
                                 height: 30px;
                                 border-radius: 5px;
                                 margin-left: 0;
-                            }
-
-                            /* ff 3.6+ */
-                            background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
-                            /* safari 5.1+,chrome 10+ */
-                            background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                            /* opera 11.10+ */
-                            background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                            /* ie 6-9 */
-                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
-                            /* ie 10+ */
-                            background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-                            /* global 94%+ browsers support */
-                            background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-
-                            &:hover {
-                                font-weight: 700;
                             }
 
                             &:focus {

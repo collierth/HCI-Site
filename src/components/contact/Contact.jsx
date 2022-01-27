@@ -19,7 +19,7 @@ export default function Contact() {
                     </div>
                 <div className="itemContainer">
                     <Mail className="icon" style={{fontSize: 30}}/>
-                    <span>chawkins21@student.gsu.edu</span>
+                    <span>collier_hawkins@bellsouth.net</span>
                 </div>
             </div>
             <div className="right">

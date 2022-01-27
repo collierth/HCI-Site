@@ -1,5 +1,5 @@
 import "./projects.scss"
-import {VideogameAsset, ArrowBackIos, ArrowForwardIos, Assignment} from "@material-ui/icons"
+import {VideogameAsset, ArrowBackIos, ArrowForwardIos, NewReleases} from "@material-ui/icons"
 import { useState } from "react";
 
 export default function Projects() {
@@ -17,13 +17,13 @@ export default function Projects() {
         },
         {
             id: "2",
-            icon: <Assignment style={{fontSize: 30}}/>,
-            title: "Coming Soon",
-            sub: "Assignment",
-            desc: "Check back later ;)",
-            img: "",
+            icon: <NewReleases style={{fontSize: 30}}/>,
+            title: "Portfolio Website",
+            sub: "Project",
+            desc: "Portfolio website created with React.js, HTML, and Sass.",
+            img: "/HCI-Site/assets/chlogo-black.png",
             a: "#intro",
-            b: "Unavailable",
+            b: "Visit",
         },
     ];
 

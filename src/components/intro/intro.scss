@@ -2,15 +2,8 @@
     color: white;
     display: flex;
   
-    background:-moz-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%); 
-    background:-webkit-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    background:-o-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9500FF', endColorstr='#0076DD', GradientType=1 );
-    background:-ms-linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
-    background:linear-gradient(14deg, rgba(149, 0, 255, 1) 42%, rgba(0, 118, 221, 1) 85%);
+    background-color: #7dabff;
   
-   
-
     .wrapper {
         margin: auto;
         font-size: 30px;
@@ -42,17 +35,6 @@
               }
         }
 
-        
-
-        h3 {
-            font-size: 20px;
-            font-weight: 300;
-        }
-
-        h4 {
-            font-size: 15px;
-            font-weight: 300;
-        }
 
       }
   

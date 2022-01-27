@@ -7,10 +7,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <div className="wrapper">
                 <div className="left">
                     <a href="#intro"><img src="/HCI-Site/assets/chlogo-black.png" alt=""/></a>
-                    <div className="itemContainer">
-                        <EmojiEmotions className="icon" style={{fontSize: 25}}/>
-                        <span>Collier Hawkins</span>
-                    </div>
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

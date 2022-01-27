@@ -14,9 +14,6 @@
         flex: 0.5;
         align-items: center;
         justify-content: center;
-        //background-color: red;
-        //padding-top: 100px;
-        //padding-bottom: 50px;
 
         @include mobile {
             display: none;
@@ -37,18 +34,7 @@
             justify-content: center;
             align-items: center;
     
-            /* ff 3.6+ */
-            background:-moz-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%); 
-            /* safari 5.1+,chrome 10+ */
-            background:-webkit-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-            /* opera 11.10+ */
-            background:-o-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-            /* ie 6-9 */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0076D4', endColorstr='#9500FF', GradientType=0 );
-            /* ie 10+ */
-            background:-ms-linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
-            /* global 94%+ browsers support */
-            background:linear-gradient(90deg, rgba(149, 0, 255, 1) 0%, rgba(0, 118, 212, 1) 100%);
+            background-color: #7dabff;
     
             .icon {
                 color: white; 
@@ -69,7 +55,6 @@
         @include mobile {
             flex: 1;
             padding: 5px 5px;
-            //width: 100%;
             margin-bottom: 350px;
             max-width: fit-content;
         }
